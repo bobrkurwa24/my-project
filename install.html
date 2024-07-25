@@ -1,0 +1,7 @@
+install:
+  - pip install flake8
+  - npm install eclint
+
+script:
+  - flake8 .
+  - eclint check .
